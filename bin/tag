@@ -9,5 +9,6 @@ var options = {
 
 var tagger = new Tagger(options);
 tagger.tag(process.argv[2], function(err, resp) {
+  if (err) return console.error(err);
   console.log(resp);
 });
