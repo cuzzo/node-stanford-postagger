@@ -1,0 +1,8 @@
+{
+  "name": "node-stanford-postagger",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "xmlrpc": "~1.2.0"
+  }
+}
