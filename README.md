@@ -17,7 +17,7 @@ Dependencies
 * [node.js](http://nodejs.org/])
 * [npm](https://www.npmjs.org/)
 
-To simply configure and install Stanford's POS-tagger with Turian's XMLPRC service, you can simply run my docker image:
+To simply configure and install Stanford's POS-tagger with Turian's XMLPRC service, you can simply run my [Stanford POS-tagger Docker image](https://registry.hub.docker.com/u/cuzzo/stanford-pos-tagger/):
 
 ```bash
 docker pull cuzzo/stanford-pos-tagger
