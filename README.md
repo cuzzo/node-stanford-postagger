@@ -55,16 +55,16 @@ run-server.sh models/left3words-wsj-0-18.tagger 9000
 
 The above runs the service using the built-in `left3words-wsj-0-18` training model on port `9000`. To run this script, it's required to live in the root directory of the stanford-postagger code--in the same directory as Turian's `tagger-server.jar` is required to be moved.
 
-Interacting with Stanford's POS-tagger in node.js
--------------------------------------------------
+Interacting with the XMLRPC Service in node.js
+----------------------------------------------
 
 ```bash
 $ bin/tag "Hello, world!"
 > [ 'Hello_UH ,_, world_NN !_.\n' ]
 ```
 
-Interacting with Stanford's POS-tagger in Your node.js Project
---------------------------------------------------------------
+Interacting with the XMLRPC Service in Your node.js Project
+-----------------------------------------------------------
 
 ```javascript
 var Tagger = require("node-stanfrod-postagger/postagger").Tagger;
