@@ -1,8 +1,7 @@
 Node Stanford POS-tagger
 ========================
 
-
-A node.js client to interact with Stanford's POS-tagger.
+Let your node.js application think like a human.
 
 Usage
 -----
