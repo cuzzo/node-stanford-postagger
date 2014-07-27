@@ -66,7 +66,7 @@ Interacting with the XMLRPC Service in Your node.js Project
 -----------------------------------------------------------
 
 ```javascript
-var Tagger = require("node-stanfrod-postagger/postagger").Tagger;
+var Tagger = require("node-stanford-postagger/postagger").Tagger;
 var tagger = new Tagger({
   port: "9000",
   host: "localhost"
@@ -81,7 +81,7 @@ If you don't like callbacks and prefer promises, node-stanford-postagger support
 
 ```javascript
 var Q = require("q");
-var Tagger = require("node-stanfrod-postagger/postagger").Tagger;
+var Tagger = require("node-stanford-postagger/postagger").Tagger;
 var tagger = new Tagger({
   port: "9000",
   host: "localhost"
