@@ -108,3 +108,5 @@ License
 -------
 
 node-stanford-postagger is free--as in BSD. Hack your heart out, hackers.
+
+* NOTE: Stanford's POS Tagger itself is licensed GPL.
