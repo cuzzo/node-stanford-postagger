@@ -4,7 +4,7 @@ var xmlrpc = require("xmlrpc"),
 var trickster = new Trickster();
 
 var Tagger = function(options) {
-  options = typeof options !== "undefined" ? options : {}
+  options = options || {};
 
   var _client = xmlrpc.createClient({
     host: options.host || "localhost",
