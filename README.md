@@ -73,7 +73,8 @@ var tagger = new Tagger({
 });
 
 tagger.tag("Hello, world!", function(err, resp) {
-  console.log(err, resp);
+  if (err) return console.error(err);
+  console.log(resp);
 });
 ```
 
@@ -93,7 +94,7 @@ tagger.tag("Hello, world!")
       console.log(resp);
     },
     function(err) {
-      console.log(err);
+      console.error(err);
     }
   );
 ```
