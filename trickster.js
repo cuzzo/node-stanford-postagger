@@ -1,5 +1,6 @@
-var MAGIC_TRICK_STRING = "<PPPPPP>";
-var magic_regex = new RegExp(MAGIC_TRICK_STRING + "_.{2,3} \._\.\n", "g");
+var MAGIC_TRICK_STRING = "<PPPPPP>",
+    magic_regex = new RegExp(MAGIC_TRICK_STRING + "_.{2,3} \._\.\n", "g"),
+    newline_end_regex = /\n$/;
 
 /**
  * Wraps text in a magic string so that paragraphs can be preserved
@@ -44,7 +45,11 @@ var Trickster = function() {
    *   The POS-tagged text, separated into paragarphs.
    */
   this.untrick = function(text) {
-    return text.split(magic_regex);
+    return text
+        .split(magic_regex)
+        .map(function(p) {
+            return p.replace(newline_end_regex, "");
+          });
   };
 }
 
