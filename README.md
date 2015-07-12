@@ -13,7 +13,7 @@ Dependencies
 
 * [Stanford's POS-tagger](http://nlp.stanford.edu/software/tagger.shtml)
 * [Turian's XMLRPC service for Stanford's POS-tagger](https://github.com/turian/stanford-pos-tagger-service).
-* [node.js](http://nodejs.org/])
+* [node.js](http://nodejs.org/)
 * [npm](https://www.npmjs.org/)
 
 To simply configure and install Stanford's POS-tagger with Turian's XMLPRC service, you can simply run my [Stanford POS-tagger Docker image](https://registry.hub.docker.com/u/cuzzo/stanford-pos-tagger/):
