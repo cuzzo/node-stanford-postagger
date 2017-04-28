@@ -103,7 +103,7 @@ Acknowledgements
 ----------------
 
 * [Ali Afshar's XMLRPC service for Stanford's POS-tagger](https://github.com/turian/stanford-pos-tagger-service) - This node.js client wouldn't exist without it.
-* [The geniuses at Stanford](https://nlp.stanford.edu/) - These guys were and are truly pioneering. This software gets the part of speech right 90% of the time, even when the word is unknown!
+* [The geniuses at Stanford](https://nlp.stanford.edu/people/) - These guys were and are truly pioneering. This software gets the part of speech right 90% of the time, even when the word is unknown!
 
 License
 -------
